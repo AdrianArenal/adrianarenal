@@ -108,6 +108,7 @@ $footer-height: 5vh;
     display: flex;
     align-items: center;
     height: $header-height;
+    min-height: rem(65px);
     &::after {
       content: '';
       border-bottom: $header-height solid transparent;
@@ -206,6 +207,7 @@ $footer-height: 5vh;
     bottom: 0;
     display: flex;
     height: $footer-height;
+    min-height: rem(35px);
     &::after {
       content: '';
       border-top: $footer-height solid transparent;
@@ -234,7 +236,7 @@ $footer-height: 5vh;
 
   @media only screen and (max-width: $breakpoint__small-desktop--max) {
     &__header {
-      align-items: flex-start;
+      align-items: normal;
     }
 
     &__header-content {

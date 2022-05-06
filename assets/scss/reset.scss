@@ -2,18 +2,29 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
   font-family: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
   font-weight: normal;
 }
 
-img, video, iframe {
+img,
+video,
+iframe {
   max-width: 100%;
   height: auto;
 }
@@ -27,8 +38,4 @@ address {
   font-style: normal;
   padding: inherit;
   margin: inherit;
-}
-
-a:visited{
-  color: inherit;
 }

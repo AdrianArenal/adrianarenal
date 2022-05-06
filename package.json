@@ -1,7 +1,7 @@
 {
   "name": "adrianarenal",
   "version": "1.0.0",
-  "description": "Choose your preferred theme and enjoy finding out some information about me!",
+  "description": "This is my personal webpage. Choose your preferred theme and enjoy finding out some information about me!",
   "author": "Adrian Arenal",
   "private": true,
   "scripts": {
@@ -13,6 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
@@ -28,9 +29,11 @@
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^24.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "prettier": "^1.19.1",
-    "sass-loader": "^8.0.2",
+    "sass": "~1.51.0",
+    "fibers": "~5.0.1",
+    "sass-loader": "^10.1.1",
     "vue-jest": "^4.0.0-0"
   }
 }

@@ -28,8 +28,7 @@ export default {
   methods: {
     getSocialMediaUrl(socialMedia: SocialMediaEnum): string {
       return {
-        [SocialMediaEnum.GITHUB]:
-          'https://github.com/AdrianArenal/adrianarenal',
+        [SocialMediaEnum.GITHUB]: 'https://github.com/AdrianArenal',
         [SocialMediaEnum.INSTAGRAM]: 'https://www.instagram.com/adrian_arenal/',
         [SocialMediaEnum.LINKEDIN]: 'https://www.linkedin.com/in/adrian-arenal',
         [SocialMediaEnum.FACEBOOK]: 'https://www.facebook.com/adrian.arenal.9/'

@@ -7,21 +7,23 @@
     </p>
     <p>
       One of my favourite things about web development is to animate the
-      interface, making it alive, joyfull or even funny.
+      interface, to make it alive, joyfull or even funny.
     </p>
     <p>
-      However, this is not a easy task. Animations must deal with another
+      However, this is not an easy task. Animations must deal with some other
       aspects like UX / UI design!
     </p>
     <p>
-      This website was created not only to tell my life but also as an own
-      playground with freedom in what I create.
+      I will use this website as my very own gallery, so I hope you can get to
+      know me better through them!
     </p>
     <p>
-      For the ones who have curiosity about the technologies involved in this
-      project, you can visit the repository where I develop this website. Is an
-      open-source project so feel free to see the code or even propose
-      improvements!
+      For those who are curious about the technologies involved in the
+      development of this project, the open-source code is available in this
+      <a href="https://github.com/AdrianArenal/adrianarenal" target="_blank"
+        >repository</a
+      >. Feel free to check the code and propose any change that may improve
+      this website!
     </p>
   </section>
 </template>

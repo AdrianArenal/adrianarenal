@@ -1,9 +1,15 @@
+@use 'sass:math';
+
 $browser-context: 16px;
 
 @function em($pixels, $context: $browser-context) {
-  @return #{$pixels / $context}em;
+  @return math.div($pixels, $context) * 1em;
 }
 
 @function rem($pixels) {
-  @return #{$pixels / $browser-context}rem;
+  @return math.div($pixels, $browser-context) * 1rem;
+}
+
+@function div($dividend, $divisor) {
+  @return math.div($dividend, $divisor);
 }

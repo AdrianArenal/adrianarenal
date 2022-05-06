@@ -9,12 +9,15 @@
       author="Universidad de Oviedo"
       :imageSrc="require('../../assets/media/images/uniovi.jpeg')"
     >
-      <a
-        href="https://www.sciencedirect.com/science/article/pii/S0167739X17317363?via%3Dihub"
-        target="_blank"
-      >
-        Final degree project published in 'Elsevier' (17-01-2018)
-      </a>
+      <p>
+        Final Project:
+        <a href="https://doi.org/10.1016/j.future.2018.01.011" target="_blank">
+          Pereira, A. A., Espada, J. P., Crespo, R. G., & Aguilar, S. R. (2019).
+          Platform for controlling and getting data from network connected
+          drones in indoor environments. Future Generation Computer Systems, 92,
+          656–662.
+        </a>
+      </p>
     </card-info>
 
     <card-info
@@ -39,6 +42,13 @@
       date="2020"
       author="Frontend Love"
       :imageSrc="require('../../assets/media/images/frontend-love.png')"
+    />
+    <card-info
+      class="studies-section__card-info"
+      title="Professional Scrum Master I"
+      date="2021"
+      author="Scrum.org"
+      :imageSrc="require('../../assets/media/images/badge-psmi.svg')"
     />
   </section>
 </template>

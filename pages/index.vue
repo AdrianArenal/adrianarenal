@@ -27,7 +27,7 @@ import {
   WorkSection,
   IntersectElement
 } from '~/components'
-import { ScrollUtils } from '~/utils/scroll.utils'
+import { scrollToElm } from '~/utils/scroll.utils'
 
 export default {
   components: {
@@ -69,7 +69,7 @@ export default {
   watch: {
     section: function(): void {
       if (this.autoScrolling) {
-        ScrollUtils.scrollToElm(this.$el, this.selectedSectionElement, 2, () =>
+        scrollToElm(this.$el, this.selectedSectionElement, 2, () =>
           this.setAutoScrolling(false)
         )
       }

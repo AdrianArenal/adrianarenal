@@ -1,5 +1,5 @@
 export default {
-  mode: 'universal',
+  target: 'static',
   /*
    ** Headers of the page
    */
@@ -18,21 +18,44 @@ export default {
         content: process.env.npm_package_description || ''
       },
       {
-        name: 'og:title',
+        property: 'og:title',
         content: 'Adrian Arenal'
       },
       {
-        name: 'og:description',
-        content:
-          'Choose your preferred theme and enjoy finding out some information about me!'
+        property: 'og:description',
+        content: process.env.npm_package_description || ''
       },
       {
-        name: 'og:image',
-        content: '/adrian.jpeg'
+        property: 'og:image',
+        content: 'http://adrianarenal.dev/adrian.jpeg'
       },
       {
-        name: 'og:url',
+        property: 'og:image:secure_url',
+        content: 'https://adrianarenal.dev/adrian.jpeg'
+      },
+      {
+        property: 'og:url',
         content: 'https://adrianarenal.dev'
+      },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image'
+      },
+      {
+        name: 'twitter:image',
+        content: 'http://adrianarenal.dev/adrian.jpeg'
+      },
+      {
+        name: 'twitter:description',
+        content: process.env.npm_package_description || ''
+      },
+      {
+        name: 'twitter:site',
+        content: 'AdrianArenal.dev'
+      },
+      {
+        name: 'twitter:creator',
+        content: 'https://twitter.com/adrianarenal94'
       },
       {
         name: 'theme-color',
@@ -68,7 +91,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/style-resources', '@nuxtjs/sitemap'],
   styleResources: {
     scss: [
       './assets/scss/abstracts/_functions.scss',
@@ -76,6 +99,9 @@ export default {
       './assets/scss/abstracts/_animations.scss',
       './assets/scss/abstracts/_mixins.scss'
     ]
+  },
+  sitemap: {
+    hostname: 'https://adrianarenal.dev',
   },
   /*
    ** Build configuration
