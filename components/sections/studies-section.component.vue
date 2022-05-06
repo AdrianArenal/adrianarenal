@@ -43,6 +43,13 @@
       author="Frontend Love"
       :imageSrc="require('../../assets/media/images/frontend-love.png')"
     />
+    <card-info
+      class="studies-section__card-info"
+      title="Professional Scrum Master I"
+      date="2021"
+      author="Scrum.org"
+      :imageSrc="require('../../assets/media/images/badge-psmi.svg')"
+    />
   </section>
 </template>
 
