@@ -30,7 +30,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^24.1.0",
     "node-sass": "^7.0.0",
-    "prettier": "^1.19.1",
+    "prettier": "^2.7.1",
     "sass": "~1.51.0",
     "fibers": "~5.0.1",
     "sass-loader": "^10.1.1",
